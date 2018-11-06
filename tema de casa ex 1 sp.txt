@@ -1,0 +1,32 @@
+Se va genera un semnal cu rezolutie temporara de 2ms,20ms,200ms pentru un semnal de tipul:
+1.Semnal dreptunghiular periodic cu: 
+-perioada 2s
+-factor de umplere :25%
+-nivel maxim +0.5
+-nivel minim -1
+
+
+
+Raspuns:
+
+
+ -Semnal dreptunghiular cu rezolutie temporara 2ms:
+t = 0:0.002:2;      % reprezinta timpul de la 0 la 2 secunde cu rezolutie temporara de 2ms
+x = square(2pi*t*f0,25);       % 'square' afiseaza un grafic dreptunghiular de perioada t cu factorul de umplere 25%
+plot(t,x,'.-'),xlabel('Timp [s]'),ylabel('Amplitudine'),title('Square Periodic Wave'),grid;
+
+
+
+-Semnal dreptunghiular cu rezolutie temporara 20ms
+
+t = 0:0.02:2;    % seteaza noua rezolutie temporara de 20ms
+x = square(2pi*t*f0,25);
+plot(t,x,'.-'),xlabel('Timp [s]'),ylabel('Amplitudine'),title('Square Periodic Wave'),grid;
+
+
+
+-Semnal dreptunghiular cu rezolutie temporara 200ms
+
+t = 0:0.2:2;    % seteaza noua rezolutie temporara de 200ms
+x = square(2pi*t*f0,25);
+plot(t,x,'.-'),xlabel('Timp [s]'),ylabel('Amplitudine'),title('Square Periodic Wave'),grid;
