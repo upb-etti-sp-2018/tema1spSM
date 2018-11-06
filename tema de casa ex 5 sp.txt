@@ -1,4 +1,4 @@
-4.Semnal sinusoidal redresor mono alternanta 
+5.Semnal sinusoidal redresor mono alternanta 
 Perioada semnalului sinusoidal initial(neredresat) 3s.
 Amplitudine de :0.8
 Raspuns:
