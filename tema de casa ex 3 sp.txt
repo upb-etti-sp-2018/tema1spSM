@@ -1,4 +1,4 @@
-Semnal dreptunghiular multinivel aleator.
+3.Semnal dreptunghiular multinivel aleator.
 Durata fiecarui nivel:0,25s
 Nivelurile:
 -{-1,1}
