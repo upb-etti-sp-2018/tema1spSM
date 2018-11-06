@@ -1,0 +1,16 @@
+d = complex(randn(1,18), randn(1,18));
+
+functiecomplex(d)
+
+
+
+
+
+
+functia:
+
+function [mean, squared, matrix] = functie(d)
+  mean = mean(real(d))
+  squared = d.^2
+  matrix = d * (transpose(d))
+  end
