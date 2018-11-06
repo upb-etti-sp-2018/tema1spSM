@@ -1,0 +1,7 @@
+a=[0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 1.7 1.8 1.9 2];%initializarea lui A
+b=[1;1  ;1  ;1  ;1  ;1  ;1  ;1  ;1  ;1  ;1 ;1  ;1  ;1  ;1  ;1  ;1  ;1  ;1  ;1  ;1];%initializarea lui B
+a)%b trebuie sa aibe 21 de elemente
+c=a*b %se aduna a[1,i]*b[i,1]
+b)d=b*a %se creeaza o matrice de 21*21 unde pe fiecare coloana apare produsul a[1,i]*b[i,1]
+
+c)e=diag(a)*b %se inmulteste element cu element
